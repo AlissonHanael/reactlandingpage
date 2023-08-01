@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #000300;
+}
+
+button{
+  @apply bg-[#00df94] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black
+}
+
+
+.swiper {
+  @apply w-full h-full
+}
+
+.swiper-slide {
+  @apply text-center font-[18px] bg-white flex justify-center items-center
+
+}
+
+
